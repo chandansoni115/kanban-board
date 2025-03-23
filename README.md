@@ -1,5 +1,5 @@
 # **📝 Kanban Board**  
-A **lightweight and efficient Kanban Board** built with **Laravel 10, Vue.js 3, Inertia.js, Tailwind CSS, and SQLite/MySQL** for managing tasks with a drag-and-drop interface.
+A **lightweight and efficient Kanban Board** built with **Laravel 10, Vue.js 3, Inertia.js, Tailwind CSS, and SQLite** for managing tasks with a drag-and-drop interface.
 
 ---
 
@@ -7,13 +7,13 @@ A **lightweight and efficient Kanban Board** built with **Laravel 10, Vue.js 3, 
 👉 **View all tasks** on a Kanban board  
 👉 **Drag & drop tasks** between columns  
 👉 **Create, edit, and delete tasks**  
-👉 **Persistent storage** with SQLite or MySQL  
+👉 **Persistent storage** with SQLite
 👉 **Fast & modern UI** powered by Vue 3 & Tailwind CSS  
 
 ---
 
 ## **🛠 Tech Stack**  
-🔹 **Backend**: Laravel 10, SQLite/MySQL  
+🔹 **Backend**: Laravel 10, SQLite 
 🔹 **Frontend**: Vue.js 3, Inertia.js, Tailwind CSS  
 🔹 **Build Tools**: Vite  
 
@@ -22,12 +22,11 @@ A **lightweight and efficient Kanban Board** built with **Laravel 10, Vue.js 3, 
 ## **👅 Installation**  
 Clone the repository and set up the project:  
 ```sh
-git clone https://github.com/yourusername/kanban-board.git
+git clone https://github.com/chandansoni115/kanban-board.git
 cd kanban-board
 composer install
 npm install
 cp .env.example .env
-php artisan key:generate
 ```
 
 ### **Database Setup**  
